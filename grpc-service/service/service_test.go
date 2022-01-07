@@ -65,8 +65,6 @@ func TestCreateUser(t *testing.T) {
 		}, UserId: userId,
 	}
 
-	//t.Log(reflect.TypeOf(userId))
-
 	testsCases := []struct {
 		Name            string
 		Identifier      string
